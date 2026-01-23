@@ -3,12 +3,13 @@ import { Coffee, Clock, User } from 'lucide-react';
 
 const EmotionalSection = () => {
   return (
-    <section className="py-20 bg-gradient-to-br from-stone-50 via-amber-50/40 to-stone-100">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <section className="sl-section bg-gradient-to-br from-stone-50 via-amber-50/40 to-stone-100">
+      <div className="sl-section-inner max-w-7xl">
         <div className="grid md:grid-cols-2 gap-12 items-center border-t border-stone-200 pt-12">
           <div>
-            <h2 className="text-3xl md:text-4xl font-light text-stone-900 mb-6 tracking-tight">Moving Abroad is More Than Paperwork</h2>
-            <p className="text-base md:text-lg text-stone-700 mb-6 font-light">
+            <p className="sl-eyebrow mb-2">Beyond paperwork</p>
+            <h2 className="sl-heading text-3xl md:text-4xl mb-6">Moving Abroad is More Than Paperwork</h2>
+            <p className="sl-subtitle text-base md:text-lg mb-6">
               It's about leaving behind everything familiar—the grocery store clerk who knows your name, your favorite coffee shop corner, the rhythm of your daily life.
             </p>
             <p className="text-lg text-gray-700 mb-6 font-light tracking-wide">

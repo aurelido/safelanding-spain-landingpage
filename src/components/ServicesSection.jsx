@@ -3,11 +3,12 @@ import { Compass, FileText, Briefcase } from 'lucide-react';
 
 const ServicesSection = () => {
   return (
-    <section id="services" className="py-20 bg-stone-50 border-t border-stone-200/70">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <section id="services" className="sl-section bg-stone-50 border-t border-stone-200/70">
+      <div className="sl-section-inner max-w-7xl">
         <div className="text-center mb-14">
-          <h2 className="text-3xl md:text-4xl font-light text-stone-900 mb-4 tracking-tight">How We Can Help</h2>
-          <p className="text-base md:text-lg text-stone-600 max-w-3xl mx-auto font-light">
+          <p className="sl-eyebrow mb-2">How we can help</p>
+          <h2 className="sl-heading text-3xl md:text-4xl mb-4">Services</h2>
+          <p className="sl-subtitle text-base md:text-lg max-w-3xl mx-auto">
             Your move has different stages — and we support you through all of them, from planning to paperwork to settling in. Choose the service that fits where you are right now.
           </p>
         </div>

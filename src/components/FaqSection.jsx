@@ -3,11 +3,12 @@ import { HelpCircle } from 'lucide-react';
 
 const FaqSection = () => {
   return (
-    <section id="faq" className="py-20 bg-white border-t border-stone-200/80">
-      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+    <section id="faq" className="sl-section bg-white border-t border-stone-200/80">
+      <div className="sl-section-inner max-w-4xl">
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-light text-stone-900 mb-4 tracking-tight">Frequently Asked Questions</h2>
-          <p className="text-base md:text-lg text-stone-600 font-light">
+          <p className="sl-eyebrow mb-2">Questions we hear often</p>
+          <h2 className="sl-heading text-3xl md:text-4xl mb-4">Frequently Asked Questions</h2>
+          <p className="sl-subtitle text-base md:text-lg">
             We've heard these questions countless times—and we're happy to answer them clearly.
           </p>
         </div>
@@ -23,12 +24,12 @@ const FaqSection = () => {
             </p>
           </div>
 
-          <div className="border-b border-gray-200 pb-6">
-            <h3 className="text-xl font-light text-amber-800 mb-2 flex items-center tracking-wide">
+          <div className="border-b border-stone-200 pb-6">
+            <h3 className="text-lg font-medium text-stone-900 mb-2 flex items-center tracking-tight">
               <HelpCircle className="w-5 h-5 mr-2" />
               Can you guarantee my visa will be approved?
             </h3>
-            <p className="text-gray-600 font-light">
+            <p className="text-sm text-stone-700 font-light">
               No one can guarantee visa approval—that's ultimately up to Spanish immigration authorities. However, we dramatically increase your chances by ensuring your application is complete, accurate, and presents your case clearly and professionally.
             </p>
           </div>

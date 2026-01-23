@@ -3,16 +3,16 @@ import { User, FileText, Plane, Home } from 'lucide-react';
 
 const WhatWeDoSection = () => {
   return (
-    <section id="what-we-do" className="py-20 bg-white">
-      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+    <section id="what-we-do" className="sl-section bg-white">
+      <div className="sl-section-inner max-w-6xl">
         <div className="mb-12">
-          <p className="text-xs font-medium tracking-[0.22em] uppercase text-amber-700 mb-2">
+          <p className="sl-eyebrow mb-2">
             How we work
           </p>
-          <h2 className="text-3xl md:text-4xl font-light text-stone-900 mb-3 tracking-tight">
+          <h2 className="sl-heading text-3xl md:text-4xl mb-3">
             A calm, step-by-step path to Spain.
           </h2>
-          <p className="text-sm md:text-base text-stone-600 max-w-2xl leading-relaxed">
+          <p className="sl-subtitle text-sm md:text-base max-w-2xl">
             From the first conversation to the day you feel truly settled, our process is designed to keep you informed,
             supported, and out of overwhelm.
           </p>

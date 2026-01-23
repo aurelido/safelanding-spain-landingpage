@@ -2,18 +2,14 @@ import React from 'react';
 
 const FinalCtaSection = () => {
   return (
-    <section className="py-20 bg-stone-50 border-t border-stone-200">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <section className="sl-section bg-stone-50 border-t border-stone-200">
+      <div className="sl-section-inner max-w-7xl">
         <div className="grid md:grid-cols-[minmax(0,0.95fr)_minmax(0,1.4fr)] gap-12 items-stretch">
           {/* Left column: short reassurance and CTA */}
           <div className="flex flex-col justify-center">
-            <p className="text-xs font-medium tracking-[0.22em] uppercase text-amber-700 mb-3">
-              Next step
-            </p>
-            <h2 className="text-3xl md:text-4xl font-light text-stone-900 mb-4 tracking-tight">
-              Let's talk about your move to Spain.
-            </h2>
-            <p className="text-sm md:text-base text-stone-700 mb-6 max-w-md leading-relaxed">
+            <p className="sl-eyebrow mb-3">Next step</p>
+            <h2 className="sl-heading text-3xl md:text-4xl mb-4">Let's talk about your move to Spain.</h2>
+            <p className="sl-subtitle text-sm md:text-base mb-6 max-w-md">
               Share a bit about your plans, and we'll follow up with a calm, practical conversation—no pressure, no sales script, just clear guidance.
             </p>
             <a
