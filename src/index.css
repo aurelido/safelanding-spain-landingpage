@@ -1,0 +1,61 @@
+@import 'tailwindcss';
+
+/* Design tokens & global styles */
+:root {
+  --sl-bg: #faf5f0; /* soft neutral background */
+  --sl-surface: #ffffff;
+  --sl-text: #1f2933; /* similar to stone-900 */
+  --sl-muted: #6b7280; /* similar to gray/stone-500 */
+  --sl-border: #e5e7eb; /* stone-200 */
+  --sl-accent: #d97706; /* amber-600-ish */
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'SF Pro Text', sans-serif;
+  color: var(--sl-text);
+  background-color: var(--sl-bg);
+}
+
+/* Shared section primitives */
+.sl-section {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.sl-section-inner {
+  max-width: 72rem; /* ~1152px */
+  margin: 0 auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.sl-eyebrow {
+  font-size: 0.75rem;
+  font-weight: 500;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--sl-accent);
+}
+
+.sl-heading {
+  font-weight: 300;
+  letter-spacing: -0.02em;
+  color: var(--sl-text);
+}
+
+.sl-subtitle {
+  font-size: 0.9375rem;
+  line-height: 1.6;
+  color: var(--sl-muted);
+}
