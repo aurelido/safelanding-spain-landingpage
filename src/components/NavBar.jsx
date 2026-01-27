@@ -28,15 +28,15 @@ const NavBar = () => {
             <a href="#about" className="text-stone-700 hover:text-stone-950 transition-colors tracking-wide">
               About
             </a>
-            <a href="#what-we-do" className="text-stone-700 hover:text-stone-950 transition-colors tracking-wide">
+            {/* <a href="#what-we-do" className="text-stone-700 hover:text-stone-950 transition-colors tracking-wide">
               What We Do
-            </a>
+            </a> */}
             <a href="#services" className="text-stone-700 hover:text-stone-950 transition-colors tracking-wide">
               Services
             </a>
-            <a href="#faq" className="text-stone-700 hover:text-stone-950 transition-colors tracking-wide">
+            {/* <a href="#faq" className="text-stone-700 hover:text-stone-950 transition-colors tracking-wide">
               FAQs
-            </a>
+            </a> */}
             <a href="#contact" className="text-stone-700 hover:text-stone-950 transition-colors tracking-wide">
               Contact
             </a>

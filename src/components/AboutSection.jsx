@@ -7,7 +7,17 @@ const AboutSection = () => {
     <section id="about" className="sl-section bg-white border-t border-stone-200/80">
       <div className="sl-section-inner max-w-7xl">
         <div className="grid md:grid-cols-2 gap-12 items-center">
-          <div className="relative">
+          <div className="bg-gradient-to-br from-amber-200/70 to-amber-500/60 rounded-2xl w-full h-72 md:h-[22rem] flex items-center justify-center">
+              <div className="text-center">
+                <img
+                  // src="https://placehold.co/400x400/8B5A3C/FFFFFF?text=Nature+in+Spain"
+                  src="src/assets/about-section.jpeg"
+                  alt="Beautiful Spanish landscape"
+                  className="w-full h-full object-cover rounded-2xl"
+                />
+              </div>
+            </div>
+          {/* <div className="relative">
             <div className="bg-gradient-to-br from-amber-200/70 to-amber-500/60 rounded-2xl w-full h-72 md:h-[22rem] flex items-center justify-center">
               <div className="text-center">
                 <img
@@ -18,18 +28,17 @@ const AboutSection = () => {
                 />
               </div>
             </div>
-          </div>
+          </div> */}
           <div>
             <p className="sl-eyebrow mb-2">About us</p>
             <h2 className="sl-heading text-3xl md:text-4xl mb-6">Our Vision</h2>
             <p className="sl-subtitle text-base md:text-lg mb-6">
-              SafeLanding Spain is a boutique relocation & concierge agency helping expats move to Spain — and truly settle in — with clarity, confidence, and care.
+              SafeLanding Spain is a boutique relocation & concierge agency helping Americans move to Spain — and truly settle in — with clarity, confidence, and care.            </p>
+            <p className="text-lg text-gray-700 mb-6 font-light tracking-wide">
+              We help you navigate both sides of the transition: the practical (visas, documents, appointments, bureaucracy) and the human (language barriers, overwhelm, uncertainty, adapting to daily life).
             </p>
             <p className="text-lg text-gray-700 mb-6 font-light tracking-wide">
-              We support you not only with the planning and paperwork, but also with the after-arrival reality: the phone calls, appointments, forms, language barriers, and everyday tasks that can quickly feel overwhelming.
-            </p>
-            <p className="text-lg text-gray-700 mb-6 font-light tracking-wide">
-              From visa clarity and document preparation to on-site, day-to-day support once you're in Spain, we act as your bilingual guide through Spanish bureaucracy and daily life — so you don't have to navigate it alone.
+              From visa and application preparation to hands-on concierge support once you’re in Spain, we act as your bilingual guide through Spanish systems and everyday realities — so you don’t have to figure it out alone.
             </p>
 
             <div className="bg-amber-50/60 p-6 rounded-lg border border-amber-100 mb-6">
@@ -41,7 +50,7 @@ const AboutSection = () => {
                 </li>
                 <li className="flex items-start">
                   <CheckCircle className="w-5 h-5 text-green-500 mr-2 mt-0.5 flex-shrink-0" />
-                  <span>simple explanations (no Spanish admin headaches)</span>
+                  <span>simple explanations of Spanish administrative processes</span>
                 </li>
                 <li className="flex items-start">
                   <CheckCircle className="w-5 h-5 text-green-500 mr-2 mt-0.5 flex-shrink-0" />
@@ -49,7 +58,7 @@ const AboutSection = () => {
                 </li>
                 <li className="flex items-start">
                   <CheckCircle className="w-5 h-5 text-green-500 mr-2 mt-0.5 flex-shrink-0" />
-                  <span>and making every client feel genuinely cared for</span>
+                  <span>a high-touch, personalized experience where you’re truly supported</span>
                 </li>
               </ul>
             </div>
@@ -58,7 +67,7 @@ const AboutSection = () => {
               Your move doesn't have to be chaotic.
             </p>
             <p className="text-lg text-gray-700 font-light tracking-wide">
-              Wherever you are in your journey — planning, preparing, or already here — we help you land safely.
+              Wherever you are in your journey — planning, preparing, or already in Spain — we help you land safely.
             </p>
           </div>
         </div>

@@ -20,23 +20,19 @@ const FinalCtaSection = () => {
             </a>
           </div>
 
-          {/* Right column: simple enquiry layout hint */}
-          <div className="bg-white border border-stone-200 rounded-2xl px-6 py-6 md:px-8 md:py-8 shadow-sm">
-            <p className="text-sm font-medium text-stone-900 mb-4">A few details help us support you better:</p>
-            <div className="grid md:grid-cols-2 gap-4 mb-4 text-xs text-stone-600">
-              <div>
-                <p className="font-medium mb-1">Timeline</p>
-                <p>Are you exploring, actively planning, or already preparing documents?</p>
+          {/* Right column */}
+          {/* <div className="bg-white border border-stone-200 rounded-2xl px-6 py-6 md:px-8 md:py-8 shadow-sm"> */}
+            {/* <div className="bg-gradient-to-br from-amber-200/70 to-amber-500/60 rounded-2xl w-full h-72 md:h-[22rem] flex items-center justify-center"> */}
+              <div className="text-center">
+                <img
+                  // src="https://placehold.co/400x400/8B5A3C/FFFFFF?text=Nature+in+Spain"
+                  src="src/assets/final-cta-section.jpg"
+                  alt="Beautiful Spanish landscape"
+                  className="w-full h-full object-cover rounded-2xl"
+                />
               </div>
-              <div>
-                <p className="font-medium mb-1">Location</p>
-                <p>Where are you now, and which part of Spain are you considering?</p>
-              </div>
-            </div>
-            <p className="text-xs text-stone-500 leading-relaxed">
-              You can share as much or as little as you like. We read every message carefully and respond personally.
-            </p>
-          </div>
+            {/* </div> */}
+          {/* </div> */}
         </div>
       </div>
     </section>
