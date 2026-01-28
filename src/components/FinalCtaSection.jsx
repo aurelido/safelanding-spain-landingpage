@@ -1,4 +1,5 @@
 import React from 'react';
+import ctaImage from '../assets/final-cta-section.jpg';
 
 const FinalCtaSection = () => {
   return (
@@ -26,8 +27,8 @@ const FinalCtaSection = () => {
               <div className="text-center">
                 <img
                   // src="https://placehold.co/400x400/8B5A3C/FFFFFF?text=Nature+in+Spain"
-                  src="src/assets/final-cta-section.jpg"
-                  alt="Beautiful Spanish landscape"
+                  src={ctaImage}
+                  alt="Coffee talk"
                   className="w-full h-full object-cover rounded-2xl"
                 />
               </div>

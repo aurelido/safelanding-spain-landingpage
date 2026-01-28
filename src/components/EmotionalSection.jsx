@@ -1,5 +1,6 @@
 import React from 'react';
 import { Coffee, Clock, User } from 'lucide-react';
+import founderImage from '../assets/founder-section.jpg';
 
 const EmotionalSection = () => {
   return (
@@ -34,7 +35,7 @@ const EmotionalSection = () => {
           <div className="flex justify-center lg:justify-end">
             <figure className="w-full max-w-xs sm:max-w-sm aspect-[4/5] overflow-hidden rounded-2xl bg-stone-200/60 shadow-sm shadow-stone-300/70">
               <img
-                src="src/assets/founder-section.jpg"
+                src={founderImage}
                 alt="Fabiola, founder of SafeLanding Spain, wrapped in an orange shawl"
                 className="h-full w-full object-cover"
               />

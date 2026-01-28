@@ -1,6 +1,6 @@
 import React from 'react';
 import { CheckCircle } from 'lucide-react';
-import aboutImage from '../assets/placehold_nature_spain.svg';
+import aboutImage from '../assets/about-section.jpeg';
 
 const AboutSection = () => {
   return (
@@ -11,7 +11,7 @@ const AboutSection = () => {
               <div className="text-center">
                 <img
                   // src="https://placehold.co/400x400/8B5A3C/FFFFFF?text=Nature+in+Spain"
-                  src="src/assets/about-section.jpeg"
+                  src={aboutImage}
                   alt="Beautiful Spanish landscape"
                   className="w-full h-full object-cover rounded-2xl"
                 />
