@@ -8,11 +8,11 @@ const FinalCtaSection = () => {
         <div className="grid md:grid-cols-[minmax(0,0.95fr)_minmax(0,1.4fr)] gap-12 items-stretch">
           {/* Left column: short reassurance and CTA */}
           <div className="flex flex-col justify-center">
-            <p className="sl-eyebrow mb-3">Next step</p>
-            <h2 className="sl-heading text-3xl md:text-4xl mb-4">Let's talk about your move to Spain.</h2>
+            <p className="sl-eyebrow mb-3">Get Started</p>
+            <h2 className="sl-heading text-3xl md:text-4xl mb-4">Every relocation journey is different.</h2>
             {/* <p className="sl-subtitle text-sm md:text-base mb-6 max-w-md"> */}
             <p className="text-lg text-gray-700 mb-6 font-light tracking-wide">
-              Share a bit about your plans, and we'll follow up with a calm, practical conversation—no pressure, no sales script, just clear guidance.
+              The best place to start is a 30-minute, complimentary call where we take the time to understand your situation, clarify where you are in the process, and see whether our support is the right fit.
             </p>
             <a
               href="#contact"

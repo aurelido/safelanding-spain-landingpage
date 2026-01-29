@@ -33,7 +33,7 @@ const ServicesSection = () => {
             </p>
             <a className="w-full bg-amber-600 hover:bg-amber-700 text-white py-3 rounded-lg font-medium transition-colors tracking-wide"
                 href="https://koalendar.com/e/relocation-exploratory-call-complimentary">
-              Book This Service
+              Book a Call
             </a>
           </div> */}
 
@@ -84,7 +84,7 @@ const ServicesSection = () => {
               className="mt-4 w-full sl-button-primary justify-center"
               href="https://koalendar.com/e/relocation-exploratory-call-complimentary"
             >
-              Book this service
+              Book a Call
             </a>
           </div>
 
@@ -138,7 +138,7 @@ const ServicesSection = () => {
               className="mt-4 w-full sl-button-primary justify-center"
               href="https://koalendar.com/e/relocation-exploratory-call-complimentary"
             >
-              Book this service
+              Book a Call
             </a>
           </div>
         </div>
