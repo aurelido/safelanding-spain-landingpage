@@ -11,7 +11,7 @@ const HeroSection = () => {
           alt="Scenic view representing life in Spain"
           className="w-full h-full object-cover"
         />
-        <div className="absolute inset-0 bg-gradient-to-r from-amber-100/70 to-orange-100/70" />
+        <div className="absolute inset-0 bg-gradient-to-r from-amber-100/50 to-orange-100/50" />
         <div className="absolute inset-0 bg-black/20" />
       </div>
 

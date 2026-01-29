@@ -15,7 +15,7 @@
 
   /* Accents */
   --sl-accent: #0e1c2f;      /* deep navy for headings, key phrases, icons */
-  --sl-accent-soft: #ddbb6a; /* light gold for subtle highlights */
+  --sl-accent-soft: oklch(47.3% 0.137 46.201); /* light gold for subtle highlights */
 
   /* Buttons */
   --sl-button-primary: #8da48e; /* sage */
@@ -83,7 +83,7 @@ body {
   letter-spacing: 0.08em;
   box-shadow: 0 16px 34px rgba(0, 0, 0, 0.35);
   border-width: 1.5px;
-  border-color: var(--sl-accent-soft);
+  border-color: #406a41;
   background-color: var(--sl-button-primary);
 }
 

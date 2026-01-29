@@ -52,7 +52,7 @@ const ServicesSection = () => {
               <h4 className="font-semibold text-[color:var(--sl-accent)] mb-4 tracking-wide">We support you with:</h4>
               <ul className="space-y-2 sl-body-copy text-sm">
                 <li className="flex items-start">
-                  <CheckCircle className="w-5 h-5 text-[color:var(--sl-accent-soft)] mr-2 mt-0.5 flex-shrink-0" />
+                  <CheckCircle className="w-5 h-5 text-green-500 mr-2 mt-0.5 flex-shrink-0" />
                   <span>Understanding visa requirements and eligibility</span>
                 </li>
                 <li className="flex items-start">
@@ -106,7 +106,7 @@ const ServicesSection = () => {
               <h4 className="font-semibold text-[color:var(--sl-accent)] mb-4 tracking-wide">Support may include:</h4>
               <ul className="space-y-2 sl-body-copy text-sm">
                 <li className="flex items-start">
-                  <CheckCircle className="w-5 h-5 text-[color:var(--sl-accent-soft)] mr-2 mt-0.5 flex-shrink-0" />
+                  <CheckCircle className="w-5 h-5 text-green-500 mr-2 mt-0.5 flex-shrink-0" />
                   <span>TIE appointments and renewals</span>
                 </li>
                 <li className="flex items-start">

@@ -62,10 +62,10 @@ const AppFooter = () => {
               className="bg-[color:var(--sl-surface)] border border-[color:var(--sl-border)] rounded-2xl px-6 py-6 md:px-8 md:py-8 shadow-sm mb-6"
               onSubmit={handleSubmit}
             >
-              <h4 className="sl-heading text-xl mb-3">Share a little about your move</h4>
+              {/* <h4 className="sl-heading text-xl mb-3">Share a little about your move</h4>
               <p className="sl-body-copy text-sm mb-6 leading-relaxed text-[color:var(--sl-muted)]">
                 A few details help us respond with something genuinely useful. We&apos;ll reply personally—no automated sequences.
-              </p>
+              </p> */}
 
               <div className="grid md:grid-cols-2 gap-4 mb-4">
                 <div className="flex flex-col gap-1">
