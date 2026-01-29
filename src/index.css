@@ -2,12 +2,27 @@
 
 /* Design tokens & global styles */
 :root {
-  --sl-bg: #faf5f0; /* soft neutral background */
+  /* Backgrounds */
+  --sl-bg: #f6f4f0; /* cream */
   --sl-surface: #ffffff;
-  --sl-text: #1f2933; /* similar to stone-900 */
-  --sl-muted: #6b7280; /* similar to gray/stone-500 */
-  --sl-border: #e5e7eb; /* stone-200 */
-  --sl-accent: #d97706; /* amber-600-ish */
+
+  /* Typography */
+  --sl-text: #3a3a3a; /* soft charcoal body text */
+  --sl-muted: #5b5b5b; /* slightly lighter for supporting copy */
+
+  /* Borders */
+  --sl-border: #e2e0dc;
+
+  /* Accents */
+  --sl-accent: #0e1c2f;      /* deep navy for headings, key phrases, icons */
+  --sl-accent-soft: #ddbb6a; /* light gold for subtle highlights */
+
+  /* Buttons */
+  --sl-button-primary: #8da48e; /* sage */
+  --sl-button-primary-text: #0e1c2f; /* navy text on sage */
+
+  /* Cards / callouts */
+  --sl-card: #e6ece8; /* light sage-gray for cards, about sections, callouts */
 }
 
 html {
@@ -22,7 +37,7 @@ body {
 
 body {
   min-height: 100vh;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'SF Pro Text', sans-serif;
+  font-family: 'Source Serif 4', ui-serif, Georgia, 'Times New Roman', serif;
   color: var(--sl-text);
   background-color: var(--sl-bg);
 }
@@ -31,6 +46,50 @@ body {
 .sl-section {
   padding-top: 5rem;
   padding-bottom: 5rem;
+}
+
+.sl-button-primary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 9999px;
+  padding: 0.6rem 1.8rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  border: 1px solid transparent;
+  background-color: var(--sl-button-primary);
+  color: var(--sl-button-primary-text);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.06);
+  transition: background-color 150ms ease, box-shadow 150ms ease, transform 150ms ease;
+}
+
+.sl-button-primary:hover {
+  background-color: #7c947d; /* slightly deeper sage */
+  box-shadow: 0 10px 22px rgba(0, 0, 0, 0.09);
+  transform: translateY(-1px);
+}
+
+.sl-button-primary:focus-visible {
+  outline: 2px solid var(--sl-accent-soft);
+  outline-offset: 2px;
+}
+
+/* Slightly stronger style for the main hero CTA */
+.sl-button-hero {
+  padding: 0.8rem 2.4rem;
+  font-size: 0.9rem;
+  letter-spacing: 0.08em;
+  box-shadow: 0 16px 34px rgba(0, 0, 0, 0.35);
+  border-width: 1.5px;
+  border-color: var(--sl-accent-soft);
+  background-color: var(--sl-button-primary);
+}
+
+.sl-button-hero:hover {
+  background-color: #7c947d;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
 }
 
 .sl-section-inner {
@@ -49,13 +108,56 @@ body {
 }
 
 .sl-heading {
-  font-weight: 300;
+  font-family: 'Libre Baskerville', 'Times New Roman', serif;
+  font-weight: 400;
   letter-spacing: -0.02em;
-  color: var(--sl-text);
+  color: var(--sl-accent);
 }
 
 .sl-subtitle {
   font-size: 0.9375rem;
   line-height: 1.6;
   color: var(--sl-muted);
+}
+
+.sl-body-copy {
+  font-family: 'Source Serif 4', ui-serif, Georgia, 'Times New Roman', serif;
+}
+
+/* About section image layout */
+.about-image-shell {
+  max-width: 480px;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 1rem;
+  background-color: var(--sl-card);
+  display: flex;
+  justify-content: center;
+}
+
+.about-image-inner {
+  max-width: 100%;
+  aspect-ratio: 5 / 5;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+.about-image-inner img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media (min-width: 768px) {
+  .about-image-shell {
+    background-image: linear-gradient(135deg, rgba(251, 191, 36, 0.6), rgba(245, 158, 11, 0.85));
+    height: 22rem;
+    align-items: center;
+  }
+
+  .about-image-inner {
+    width: 100%;
+    height: 100%;
+    aspect-ratio: auto;
+  }
 }

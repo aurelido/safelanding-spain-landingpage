@@ -7,16 +7,15 @@ const AboutSection = () => {
     <section id="about" className="sl-section bg-white border-t border-stone-200/80">
       <div className="sl-section-inner max-w-7xl">
         <div className="grid md:grid-cols-2 gap-12 items-center">
-          <div className="bg-gradient-to-br from-amber-200/70 to-amber-500/60 rounded-2xl w-full h-72 md:h-[22rem] flex items-center justify-center">
-              <div className="text-center">
-                <img
-                  // src="https://placehold.co/400x400/8B5A3C/FFFFFF?text=Nature+in+Spain"
-                  src={aboutImage}
-                  alt="Beautiful Spanish landscape"
-                  className="w-full h-full object-cover rounded-2xl"
-                />
-              </div>
+          {/* Image block — fixed-width card on smaller screens, full-height framed image on desktop */}
+          <div className="about-image-shell">
+            <div className="about-image-inner">
+              <img
+                src={aboutImage}
+                alt="Light-filled Spanish home interior with views of the countryside"
+              />
             </div>
+          </div>
           {/* <div className="relative">
             <div className="bg-gradient-to-br from-amber-200/70 to-amber-500/60 rounded-2xl w-full h-72 md:h-[22rem] flex items-center justify-center">
               <div className="text-center">
@@ -32,7 +31,8 @@ const AboutSection = () => {
           <div>
             <p className="sl-eyebrow mb-2">About us</p>
             <h2 className="sl-heading text-3xl md:text-4xl mb-6">Our Vision</h2>
-            <p className="sl-subtitle text-base md:text-lg mb-6">
+            {/* <p className="sl-subtitle text-base md:text-lg mb-6"> */}
+            <p className="text-lg text-gray-700 mb-6 font-light tracking-wide">
               SafeLanding Spain is a boutique relocation & concierge agency helping Americans move to Spain — and truly settle in — with clarity, confidence, and care.            </p>
             <p className="text-lg text-gray-700 mb-6 font-light tracking-wide">
               We help you navigate both sides of the transition: the practical (visas, documents, appointments, bureaucracy) and the human (language barriers, overwhelm, uncertainty, adapting to daily life).

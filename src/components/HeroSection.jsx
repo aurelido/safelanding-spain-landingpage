@@ -16,7 +16,7 @@ const HeroSection = () => {
       </div>
 
       <div className="relative max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center py-16 md:py-24">
-        <p className="text-sm font-medium tracking-[0.22em] uppercase text-amber-100/80 mb-4">
+        <p className="text-sm font-medium tracking-[0.22em] uppercase text-amber-50/90 mb-4">
           Boutique Relocation & Transition Support for Moving to Spain
         </p>
         <h1 className="text-3xl sm:text-4xl md:text-5xl font-light text-white mb-4 md:mb-6 leading-tight tracking-tight">
@@ -26,8 +26,10 @@ const HeroSection = () => {
           Personalized support for expats navigating visas, paperwork, and life in Spain — with clarity, care, and real human guidance at every step.
         </p>
         <div className="flex flex-col sm:flex-row gap-3 justify-center items-center">
-          <a className="inline-flex items-center justify-center rounded-full bg-amber-500 px-7 py-3 text-sm font-medium tracking-wide text-white shadow-sm ring-1 ring-amber-300/40 hover:bg-amber-600 transition-colors"
-            href="https://koalendar.com/e/relocation-exploratory-call-complimentary">
+          <a
+            className="sl-button-primary sl-button-hero"
+            href="https://koalendar.com/e/relocation-exploratory-call-complimentary"
+          >
             Book Exploratory Call
           </a>
           {/* <a href="#what-we-do" className="inline-flex items-center justify-center text-sm font-medium text-amber-50/90 hover:text-white transition-colors underline-offset-4 hover:underline">
