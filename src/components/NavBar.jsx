@@ -40,9 +40,10 @@ const NavBar = () => {
             <a href="#contact" className="text-stone-700 hover:text-stone-950 transition-colors tracking-wide">
               Contact
             </a>
-            <button className="rounded-full border border-stone-900/10 bg-stone-900 text-stone-50 px-5 py-2 text-sm font-medium tracking-wide hover:bg-stone-800 hover:border-stone-900/30 transition-colors">
+            <a className="rounded-full border border-stone-900/10 bg-stone-900 text-stone-50 px-5 py-2 text-sm font-medium tracking-wide hover:bg-stone-800 hover:border-stone-900/30 transition-colors"
+                href="https://koalendar.com/e/relocation-exploratory-call-complimentary">
               Book a Consultation
-            </button>
+            </a>
           </div>
           <button
             className="md:hidden text-stone-800 p-2 rounded-md hover:bg-stone-100 focus:outline-none focus-visible:ring-2 focus-visible:ring-amber-400"
@@ -78,13 +79,13 @@ const NavBar = () => {
             >
               About
             </a>
-            <a
+            {/* <a
               href="#what-we-do"
               onClick={closeMenu}
               className="block py-2 text-stone-800 hover:text-stone-950"
             >
               What We Do
-            </a>
+            </a> */}
             <a
               href="#services"
               onClick={closeMenu}
@@ -92,13 +93,13 @@ const NavBar = () => {
             >
               Services
             </a>
-            <a
+            {/* <a
               href="#faq"
               onClick={closeMenu}
               className="block py-2 text-stone-800 hover:text-stone-950"
             >
               FAQs
-            </a>
+            </a> */}
             <a
               href="#contact"
               onClick={closeMenu}
@@ -107,7 +108,7 @@ const NavBar = () => {
               Contact
             </a>
             <a
-              href="#contact"
+              href="https://koalendar.com/e/relocation-exploratory-call-complimentary"
               onClick={closeMenu}
               className="mt-2 inline-flex w-full items-center justify-center rounded-full border border-stone-900/15 bg-stone-900 px-5 py-2 text-sm font-medium text-stone-50 shadow-sm hover:bg-stone-800 transition-colors"
             >
