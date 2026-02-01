@@ -20,7 +20,7 @@ const NavBar = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <div className="flex items-center">
-            <span className="text-xl md:text-2xl font-light tracking-[0.16em] uppercase text-stone-900">
+            <span className="text-xl md:text-2xl font-light tracking-[2px] text-stone-900">
               SafeLanding Spain
             </span>
           </div>

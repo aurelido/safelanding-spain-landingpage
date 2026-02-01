@@ -83,7 +83,7 @@ body {
   letter-spacing: 0.08em;
   box-shadow: 0 16px 34px rgba(0, 0, 0, 0.35);
   border-width: 1.5px;
-  border-color: #406a41;
+  /* border-color: #406a41; */
   background-color: var(--sl-button-primary);
 }
 

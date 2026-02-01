@@ -41,7 +41,7 @@ const AboutSection = () => {
               From visa and application preparation to hands-on concierge support once you’re in Spain, we act as your bilingual guide through Spanish systems and everyday realities — so you don’t have to figure it out alone.
             </p>
 
-            <div className="bg-amber-50/60 p-6 rounded-lg border border-amber-100 mb-6">
+            <div className="bg-[color:var(--sl-card)]/80 p-6 rounded-lg border border-[color:var(--sl-border)] mb-6">
               <h4 className="font-semibold text-amber-800 mb-4 tracking-wide">We believe in:</h4>
               <ul className="space-y-2 text-gray-700 font-light">
                 <li className="flex items-start">

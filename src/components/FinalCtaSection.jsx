@@ -30,7 +30,7 @@ const FinalCtaSection = () => {
                   // src="https://placehold.co/400x400/8B5A3C/FFFFFF?text=Nature+in+Spain"
                   src={ctaImage}
                   alt="Coffee talk"
-                  className="w-full h-full object-cover rounded-2xl"
+                  className="w-full h-full object-cover shadow-sm border border-[color:var(--sl-border)] rounded-2xl"
                 />
               </div>
             {/* </div> */}

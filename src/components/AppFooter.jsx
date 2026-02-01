@@ -36,7 +36,7 @@ const AppFooter = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid md:grid-cols-[minmax(0,0.9fr)_minmax(0,1.4fr)] gap-8 md:gap-12 mb-8">
           {/* Left block: compact contact details card */}
-          <div className="bg-[color:var(--sl-card)] rounded-2xl px-6 py-7 md:px-7 md:py-8 flex flex-col justify-between max-w-md">
+          <div className="bg-[color:var(--sl-card)] p-8 rounded-xl shadow-sm border border-[color:var(--sl-border)] md:px-7 md:py-8 flex flex-col justify-between max-w-md">
             <div className="space-y-3">
               <p className="sl-eyebrow mb-1">Contact</p>
               <h3 className="sl-heading text-xl md:text-2xl">Get in touch</h3>
@@ -51,7 +51,7 @@ const AppFooter = () => {
               </p>
               <p className="flex items-center gap-2 text-[color:var(--sl-text)]">
                 <Phone className="w-4 h-4 text-[color:var(--sl-accent)]" />
-                <span>+34 651 37 36 66 · By appointment</span>
+                <span>+1 (508)-492-5842</span>
               </p>
             </div>
           </div>
@@ -138,7 +138,7 @@ const AppFooter = () => {
 
             <div className="border-t border-[color:var(--sl-border)] pt-4 mt-2 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2">
               <p className="text-xs text-[color:var(--sl-muted)]">
-                © 2026 SafeLanding Spain · Boutique relocation &amp; concierge for Americans in Spain
+                © 2026 SafeLanding Spain · Boutique relocation &amp; transition support for expats moving to Spain
               </p>
             </div>
           </div>

@@ -37,7 +37,7 @@ const ServicesSection = () => {
             </a>
           </div> */}
 
-          <div className="bg-[color:var(--sl-card)] p-8 rounded-xl shadow-sm border border-[color:var(--sl-border)] flex flex-col">
+          <div className="bg-[color:var(--sl-card)] p-8 rounded-xl shadow-sm border border-[color:var(--sl-border)] flex flex-col justify-between max-w-md">
             <div className="w-12 h-12 rounded-full flex items-center justify-center mb-4 bg-white/70 border border-[color:var(--sl-border)]">
               <FileText className="w-6 h-6 text-[color:var(--sl-accent)]" />
             </div>
@@ -80,6 +80,9 @@ const ServicesSection = () => {
             <p className="sl-body-copy text-sm mb-6">
               Our role is to help you feel informed, organized, and confident throughout the application process.
             </p>
+            <p className="mt-1 text-xs text-[color:var(--sl-accent-soft)] italic">
+              <b>Please note:</b> We provide guidance and preparation support. We are not a law firm and do not provide legal representation.
+            </p>
             <a
               className="mt-4 w-full sl-button-primary justify-center"
               href="https://koalendar.com/e/relocation-exploratory-call-complimentary"
@@ -88,7 +91,7 @@ const ServicesSection = () => {
             </a>
           </div>
 
-          <div className="bg-[color:var(--sl-card)] p-8 rounded-xl shadow-sm border border-[color:var(--sl-border)] flex flex-col">
+          <div className="bg-[color:var(--sl-card)] p-8 rounded-xl shadow-sm border border-[color:var(--sl-border)] flex flex-col justify-between max-w-md">
             <div className="w-12 h-12 rounded-full flex items-center justify-center mb-4 bg-white/70 border border-[color:var(--sl-border)]">
               <Briefcase className="w-6 h-6 text-[color:var(--sl-accent)]" />
             </div>
