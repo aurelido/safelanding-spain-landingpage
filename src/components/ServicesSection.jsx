@@ -102,9 +102,6 @@ const ServicesSection = () => {
             <p className="sl-body-copy text-sm mb-6">
               Designed for expats who are already in Spain — or about to arrive — and feel overwhelmed by Spanish bureaucracy or daily admin.
             </p>
-            <p className="sl-body-copy text-sm mb-6">
-              We offer personalized, bilingual support similar to a gestoría, with a more human, hands-on approach.
-            </p>
             <div className="bg-[color:var(--sl-card)]/80 p-6 rounded-lg border border-[color:var(--sl-border)] mb-6">
               <h4 className="font-semibold text-[color:var(--sl-accent)] mb-4 tracking-wide">Support may include:</h4>
               <ul className="space-y-2 sl-body-copy text-sm">
@@ -134,6 +131,9 @@ const ServicesSection = () => {
                 </li>
               </ul>
             </div>
+            <p className="sl-body-copy text-sm mb-6">
+              We offer personalized, bilingual support similar to a gestoría, with a more human, hands-on approach.
+            </p>
             <p className="sl-body-copy text-sm mb-6">
               If it involves Spanish paperwork, processes, or communication — and you’re not sure where to start — we help you navigate it with more ease and confidence.
             </p>
