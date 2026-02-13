@@ -28,7 +28,7 @@ const AppFooter = () => {
 
     const body = encodeURIComponent(lines.join('\n'));
 
-    window.location.href = `mailto:hello@safelandingspain.com?subject=${subject}&body=${body}`;
+    window.location.href = `mailto:info@safelandingspain.com?subject=${subject}&body=${body}`;
   };
 
   return (
