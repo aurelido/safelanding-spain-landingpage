@@ -1,0 +1,15 @@
+{
+  "name": "SafeLanding Spain",
+  "short_name": "SafeLanding",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#F6F4F0",
+  "theme_color": "#F6F4F0",
+  "icons": [
+    {
+      "src": "/android-icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ]
+}
