@@ -13,6 +13,9 @@ const AboutSection = () => {
               <img
                 src={aboutImage}
                 alt="Light-filled Spanish home interior with views of the countryside"
+                width="480"
+                height="480"
+                loading="lazy"
               />
             </div>
           </div>
@@ -42,7 +45,7 @@ const AboutSection = () => {
             </p>
 
             <div className="bg-[color:var(--sl-card)]/80 p-6 rounded-lg border border-[color:var(--sl-border)] mb-6">
-              <h4 className="font-semibold text-amber-800 mb-4 tracking-wide">We believe in:</h4>
+              <h3 className="font-semibold text-amber-800 mb-4 tracking-wide">We believe in:</h3>
               <ul className="space-y-2 text-gray-700 font-light">
                 <li className="flex items-start">
                   <CheckCircle className="w-5 h-5 text-green-500 mr-2 mt-0.5 flex-shrink-0" />

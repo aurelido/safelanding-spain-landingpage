@@ -8,7 +8,10 @@ const HeroSection = () => {
       <div className="absolute inset-0">
         <img
           src={heroBg}
-          alt="Scenic view representing life in Spain"
+          alt="Scenic coastal view of Spain representing a peaceful new life abroad"
+          width="1920"
+          height="1080"
+          fetchPriority="high"
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-gradient-to-r from-amber-100/50 to-orange-100/50" />
@@ -29,6 +32,8 @@ const HeroSection = () => {
           <a
             className="sl-button-primary sl-button-hero"
             href="https://koalendar.com/e/relocation-exploratory-call-complimentary"
+            target="_blank"
+            rel="noopener noreferrer"
           >
             Book Exploratory Call
           </a>

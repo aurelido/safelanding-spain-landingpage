@@ -44,16 +44,16 @@ const AppFooter = () => {
                 Share a little about your move and we&apos;ll respond with a calm, practical reply—no automated sequences.
               </p>
             </div>
-            <div className="mt-6 space-y-2 text-sm sl-body-copy">
+            <address className="mt-6 space-y-2 text-sm sl-body-copy not-italic">
               <p className="flex items-center gap-2 text-[color:var(--sl-text)]">
                 <Mail className="w-4 h-4 text-[color:var(--sl-accent)]" />
-                <span>info@safelandingspain.com</span>
+                <a href="mailto:info@safelandingspain.com">info@safelandingspain.com</a>
               </p>
               <p className="flex items-center gap-2 text-[color:var(--sl-text)]">
                 <Phone className="w-4 h-4 text-[color:var(--sl-accent)]" />
-                <span>+1 (508)-492-5842</span>
+                <a href="tel:+15084925842">+1 (508)-492-5842</a>
               </p>
-            </div>
+            </address>
           </div>
 
           {/* Right block: basic contact form */}

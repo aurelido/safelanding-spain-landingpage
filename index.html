@@ -11,6 +11,11 @@
       content="SafeLanding Spain is a boutique relocation and concierge service helping Americans move to Spain with visa document preparation, arrival support, and calm, ongoing guidance."
     />
     <meta name="robots" content="index,follow" />
+    <meta name="theme-color" content="#F6F4F0" />
+
+    <!-- Geographic metadata -->
+    <meta name="geo.region" content="ES-V" />
+    <meta name="geo.placename" content="Valencia, Spain" />
 
     <!-- Favicon -->
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
@@ -20,6 +25,8 @@
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:site_name" content="SafeLanding Spain" />
     <meta property="og:title" content="SafeLanding Spain · Relocation & Concierge Support for Americans in Spain" />
     <meta
       property="og:description"
@@ -27,6 +34,9 @@
     />
     <meta property="og:url" content="https://www.safelandingspain.com/" />
     <meta property="og:image" content="https://www.safelandingspain.com/hero-section-bg.webp" />
+    <meta property="og:image:width" content="1920" />
+    <meta property="og:image:height" content="1080" />
+    <meta property="og:image:alt" content="Scenic coastal view of Spain representing a peaceful new life abroad" />
 
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image" />
@@ -37,15 +47,21 @@
     />
     <meta name="twitter:image" content="https://www.safelandingspain.com/hero-section-bg.webp" />
 
-    <!-- Structured data -->
+    <!-- Preconnect to Google Fonts for performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!-- Structured data: LocalBusiness with services -->
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
         "@type": "LocalBusiness",
         "name": "SafeLanding Spain",
-        "description": "Boutique relocation and concierge service helping Americans move to Spain with visa document preparation and practical support.",
+        "description": "Boutique relocation and concierge service helping Americans move to Spain with visa document preparation, arrival support, and practical guidance.",
         "url": "https://www.safelandingspain.com/",
         "image": "https://www.safelandingspain.com/hero-section-bg.webp",
+        "telephone": "+1-508-492-5842",
+        "email": "info@safelandingspain.com",
         "areaServed": {
           "@type": "Country",
           "name": "Spain"
@@ -57,9 +73,35 @@
         },
         "contactPoint": {
           "@type": "ContactPoint",
-          "email": "hello@safelandingspain.com",
-          "contactType": "customer support"
-        }
+          "email": "info@safelandingspain.com",
+          "telephone": "+1-508-492-5842",
+          "contactType": "customer support",
+          "availableLanguage": ["English", "Spanish"]
+        },
+        "founder": {
+          "@type": "Person",
+          "name": "Fabiola",
+          "jobTitle": "Founder",
+          "description": "Born and raised in Spain, currently living in the U.S., with firsthand experience navigating international relocation."
+        },
+        "makesOffer": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Visa & Document Preparation",
+              "description": "Guidance preparing Non-Lucrative Visa (NLV), Digital Nomad Visa (DNV), or Student Visa applications for Americans moving to Spain — including document organization, form review, and consulate preparation."
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Concierge Support in Spain",
+              "description": "Bilingual gestoría-style support for expats already in Spain — TIE appointments, empadronamiento, local registrations, administrative tasks, and day-to-day bureaucracy navigation."
+            }
+          }
+        ]
       }
     </script>
   </head>

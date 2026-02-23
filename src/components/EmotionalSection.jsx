@@ -37,6 +37,9 @@ const EmotionalSection = () => {
               <img
                 src={founderImage}
                 alt="Fabiola, founder of SafeLanding Spain, wrapped in an orange shawl"
+                width="400"
+                height="500"
+                loading="lazy"
                 className="h-full w-full object-cover"
               />
             </figure>

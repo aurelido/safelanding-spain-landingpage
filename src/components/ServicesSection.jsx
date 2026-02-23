@@ -49,7 +49,7 @@ const ServicesSection = () => {
               Ideal if you want guidance preparing your <b>Non-Lucrative Visa (NLV)</b>, <b>Digital Nomad Visa (DNV)</b>, or <b>Student Visa</b> — without confusion or unnecessary stress.
             </p>
             <div className="bg-[color:var(--sl-card)]/80 p-6 rounded-lg border border-[color:var(--sl-border)] mb-6">
-              <h4 className="font-semibold text-[color:var(--sl-accent)] mb-4 tracking-wide">We support you with:</h4>
+              <h3 className="font-semibold text-[color:var(--sl-accent)] mb-4 tracking-wide text-base">We support you with:</h3>
               <ul className="space-y-2 sl-body-copy text-sm">
                 <li className="flex items-start">
                   <CheckCircle className="w-5 h-5 text-green-500 mr-2 mt-0.5 flex-shrink-0" />
@@ -86,6 +86,8 @@ const ServicesSection = () => {
             <a
               className="mt-4 w-full sl-button-primary justify-center"
               href="https://koalendar.com/e/relocation-exploratory-call-complimentary"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               Book a Call
             </a>
@@ -103,7 +105,7 @@ const ServicesSection = () => {
               Designed for expats who are already in Spain — or about to arrive — and feel overwhelmed by Spanish bureaucracy or daily admin.
             </p>
             <div className="bg-[color:var(--sl-card)]/80 p-6 rounded-lg border border-[color:var(--sl-border)] mb-6">
-              <h4 className="font-semibold text-[color:var(--sl-accent)] mb-4 tracking-wide">Support may include:</h4>
+              <h3 className="font-semibold text-[color:var(--sl-accent)] mb-4 tracking-wide text-base">Support may include:</h3>
               <ul className="space-y-2 sl-body-copy text-sm">
                 <li className="flex items-start">
                   <CheckCircle className="w-5 h-5 text-green-500 mr-2 mt-0.5 flex-shrink-0" />
@@ -140,6 +142,8 @@ const ServicesSection = () => {
             <a
               className="mt-4 w-full sl-button-primary justify-center"
               href="https://koalendar.com/e/relocation-exploratory-call-complimentary"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               Book a Call
             </a>

@@ -41,7 +41,9 @@ const NavBar = () => {
               Contact
             </a>
             <a className="rounded-full border border-stone-900/10 bg-stone-900 text-stone-50 px-5 py-2 text-sm font-medium tracking-wide hover:bg-stone-800 hover:border-stone-900/30 transition-colors"
-                href="https://koalendar.com/e/relocation-exploratory-call-complimentary">
+                href="https://koalendar.com/e/relocation-exploratory-call-complimentary"
+                target="_blank"
+                rel="noopener noreferrer">
               Book a Consultation
             </a>
           </div>
@@ -109,6 +111,8 @@ const NavBar = () => {
             </a>
             <a
               href="https://koalendar.com/e/relocation-exploratory-call-complimentary"
+              target="_blank"
+              rel="noopener noreferrer"
               onClick={closeMenu}
               className="mt-2 inline-flex w-full items-center justify-center rounded-full border border-stone-900/15 bg-stone-900 px-5 py-2 text-sm font-medium text-stone-50 shadow-sm hover:bg-stone-800 transition-colors"
             >

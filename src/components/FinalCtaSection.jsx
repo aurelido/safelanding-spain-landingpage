@@ -27,9 +27,11 @@ const FinalCtaSection = () => {
             {/* <div className="bg-gradient-to-br from-amber-200/70 to-amber-500/60 rounded-2xl w-full h-72 md:h-[22rem] flex items-center justify-center"> */}
               <div className="text-center">
                 <img
-                  // src="https://placehold.co/400x400/8B5A3C/FFFFFF?text=Nature+in+Spain"
                   src={ctaImage}
-                  alt="Coffee talk"
+                  alt="Two people having an exploratory relocation consultation over coffee in Spain"
+                  width="800"
+                  height="534"
+                  loading="lazy"
                   className="w-full h-full object-cover shadow-sm border border-[color:var(--sl-border)] rounded-2xl"
                 />
               </div>

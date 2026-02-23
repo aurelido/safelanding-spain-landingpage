@@ -13,13 +13,15 @@ const App = () => {
   return (
     <div className="min-h-screen">
       <NavBar />
-      <HeroSection />
-      <AboutSection />
-      {/* <WhatWeDoSection /> */}
-      <ServicesSection />
-      <FinalCtaSection />
-      {/* <FaqSection /> */}
-      <EmotionalSection />
+      <main>
+        <HeroSection />
+        <AboutSection />
+        {/* <WhatWeDoSection /> */}
+        <ServicesSection />
+        <FinalCtaSection />
+        {/* <FaqSection /> */}
+        <EmotionalSection />
+      </main>
       <AppFooter />
     </div>
   );
