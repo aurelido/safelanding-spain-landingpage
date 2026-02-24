@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.safelandingspain.com/sitemap.xml
+Sitemap: https://safelandingspain.com/sitemap.xml
